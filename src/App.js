@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <Homepage></Homepage>     
-      <h1>this is shivam changes</h1> 
+      <h1>this is shivam changes.</h1> 
     </div>
   );
 }

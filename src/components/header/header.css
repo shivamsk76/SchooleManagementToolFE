@@ -1,0 +1,31 @@
+.hheader{
+    text-align: center;
+  position: fixed;
+  top: 2px;
+  padding: 11px;
+background-color: black;
+   
+    color: black;
+    font-size: 50px;
+    color: bisque;
+    z-index:+1
+  ;
+  font-size: 60px;
+  font-family: "Comic Sans MS",cursive,sans-serif;
+
+
+  width: 100%;
+
+  
+}
+.ulo{
+    list-style: none;
+ display: flex;
+ justify-content: space-around;
+ 
+ 
+
+
+ 
+ 
+}

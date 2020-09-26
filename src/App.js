@@ -1,13 +1,14 @@
 import React from 'react';
+import { Route, Router } from 'react-router-dom';
 import './App.css';
-import Homepage from './components/homepage/homepage';
+import Homepage from './components/Homepage/homepage'
+
 
 
 function App() {
   return (
-    <div className="App">
-      <Homepage></Homepage>     
-      <h1>this is shivam changes.</h1> 
+    <div>
+      <Homepage></Homepage>
     </div>
   );
 }

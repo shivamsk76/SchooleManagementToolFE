@@ -1,26 +1,48 @@
-.nnav{
-    display: flex;
-  
+
+
+/* .Link {
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 15px;
+    padding-right: 20px;
+}
+
+
+.submenu{display: none;
+padding-right: 20px;
+}
+
+.hove:hover .submenu{
+   display: block;
+    position: absolute;
+    background:white;
+    margin-top: 1px;
+    padding: 10px;
+    
+    
+}
+
+.hove:hover .submenu ul{
  
-   background-color: #dc3545;
-  
-   margin-top: 90px;
-  text-align: right;
- ;
-    color: white;
-    justify-content:space-around;
+    padding: 10px;
+   list-style: none;
+   font-family: "Comic Sans MS",cursive,sans-serif;
+    
+   background: transparent;
+    border-radius: 0;
     text-align: left;
-   
-    position: fixed;
+}
+.hove:hover .list{
+    border-bottom: 1px dotted red;
+    background: transparent;
+    padding-right: 10px;
 
-    width: 100%;
- 
- 
+    text-align: left;
+}
+ .submenu li:hover{
+    color:green;
+    
+    
+} */
 
-}
-.ttable{padding: 15px;
-   
-}
-.td1{
-    border: 1 ;
-}
+

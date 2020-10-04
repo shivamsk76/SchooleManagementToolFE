@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Card } from 'react-bootstrap';
 
 import './header.css';
 
@@ -7,7 +8,13 @@ import './header.css';
    
     render() {
         return (
-            <header className="hheader" > HOLY CHILD CONVENT HR SEC SCHOOL</header>
+
+            <div className="sameer">
+           <Card fixed="top">
+                <Card.Body><h1>HOLY CHILD CONVENT HR. SEC. SCHOOL</h1></Card.Body>
+
+
+           </Card></div>
         )
     }
 }

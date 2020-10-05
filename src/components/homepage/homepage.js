@@ -9,43 +9,49 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
 import Menu from '../Menubar/menu'
 import Courses from '../Courses/Courses'
 import HooksTeacherSignup from '../TeacherSignup/HooksTeacherSignup'
+import Dashboard from '../Dashboard/Dashboard'
 
 
 export class homepage extends Component {
     render() {
         return (
-            <Router>
-            <Headers/>
-            <div>
+
+
+             <div>
+                 <Dashboard/>
+             </div>
+            // <Router>
+            // <Headers/>
+            // <div>
           
             
-               <Navbar/>
-                <Switch>
+            //    <Navbar/>
+            //     <Switch>
                 
-                 <Route exact path= "/menu" exact component={Menu} ></Route>
-                 <Route exact path= "/Courses" exact component={Courses} ></Route>
+            //      <Route exact path= "/menu" exact component={Menu} ></Route>
+            //      <Route exact path= "/Courses" exact component={Courses} ></Route>
                  
                  
                 
                 
-                </Switch>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-             <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
-                <Footer></Footer>
-            </div>
-            </Router>
+            //     </Switch>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //  <p>ksdfjakl;fjd;lfj;sdfjlasfdlk;laaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffff</p>
+            //     <Footer></Footer>
+            // </div>
+            // </Router>
         )
     }
 }

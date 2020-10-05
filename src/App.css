@@ -1,10 +1,13 @@
+@import '~antd/dist/antd.css';
+
 .App {
   text-align: center;
+
 }
-  body{
+  /* body{
     background-image: url(./components/images/shivam2.jpg);
     
-  }
+  } */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
